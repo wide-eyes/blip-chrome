@@ -1,0 +1,76 @@
+#dyed_report {
+	background-color: #04a;
+	color: #fff;
+	font: 12px Helvetica, Arial, sans-serif;
+	opacity: 0.9;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	min-width: 524px;
+	z-index: 100000;
+}
+
+#dyed_report a:link, #dyed_report a:visited {
+	color: #ffa;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a#dyed_report_closer:link, a#dyed_report_closer:visited {
+	color: #acf;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#dyed_report h2 {
+	background-color: #000;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0;
+	padding: 12px;
+	text-align: left;
+}
+
+#dyed_report span {
+	float: right;
+	font-weight: bold;
+}
+
+#dyed_report .yes {
+	color: #4f4;
+}
+
+#dyed_report .no {
+	color: #f44;
+}
+
+#dyed_report_contents {
+	display: none;
+}
+
+#dyed_report table {
+	background: transparent;
+	border: 0;
+	margin: 12px;
+	width: 500px;
+}
+
+#dyed_report td {
+	background: transparent;
+	border: 0;
+}
+
+#dyed_report tr td:first-child {
+	font-weight: bold;
+	text-align: right;
+	vertical-align: top;
+	width: 60px;
+}
+
+#dyed_report tr td:nth-child(2) {
+	font-weight: normal;
+	padding-left: 1em;
+	text-align: left;
+}

@@ -1,0 +1,24 @@
+{
+    "page_action": {
+        "default_title": "Blip stuff"
+    },
+    "description": "Blips of info",
+    "manifest_version": 2,
+    "name": "Blip",
+    "version": "1.0",
+	"permissions": [
+		"activeTab",
+		"http://localhost:5000"
+	],
+	"content_scripts": [{
+		"matches": ["<all_urls>"],
+		"css": [
+			"blip.css"
+		],
+		"js": [
+			"jquery.js", 
+			"blip.js"
+		],
+		"run_at": "document_end"
+	}]
+}
